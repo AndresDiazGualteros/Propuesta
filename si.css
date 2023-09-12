@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@200;500;800&display=swap');
+:root{
+    --color1:#c3e6d4;
+    --color2:#f4f0e5;
+    --color3:#e0c4ae;
+    --color4:#e1918e;
+    --color5:#e15e6e;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: linear-gradient(to right top, #e1918e, #e28585, #e2797d, #e26c75, #e15e6e);
+    gap: 20px;
+    padding: 20px;
+    height: 100vh;
+}
+.titulo{
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    font-weight: 800;
+    color: var(--color4);
+    padding: 10px;
+}
+.contenedorTextos{
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.466);
+    background-color: #a0e7c2;
+    border-radius: 10px;
+    height: 180px;
+    color: var(--color2);
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    /*  */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.texto{
+    width: 100wh;
+    height: fit-content;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.novio{
+    background-color: var(--color4);
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+}
